@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "IranSans";
+    src: url(font/Iranian\ Sans.ttf);
+}
+
+body {
+    direction: rtl;
+    font-family: "IranSans";
+}
+
+.navbar {
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 80px;
+}
+
+.navbar-nav a:hover {
+    color: gold;
+    transform: scale(1.1);
+}
+
+
+
+.box {
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 15px;
+}
+.box p {
+    margin-right: 5px;
+}
+
+.box p a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.9;
+}
+
+.background1{
+    background-image: linear-gradient(140deg, rgb(222, 255, 222) , rgb(69, 174, 57));
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.background2{
+    background-image: linear-gradient(140deg, rgb(225, 246, 253) , rgb(96, 197, 251));
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.background3{
+    background-image: linear-gradient(140deg, rgb(154, 6, 6),  rgb(202, 69, 69) , rgb(154, 6, 6));
+    text-align: justify;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+}
+.background3 p {
+    margin-top: 12px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 20px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.box3 {
+    background: rgb(155, 124, 186);
+    padding: 20px 0px;
+}
+
+.card-img-top {
+    width: 20rem;
+    height: 12rem;
+}
+
+.m-bishtar {
+    text-decoration: none;
+    color: white;
+}
+
+.background4 {
+    background-image: linear-gradient(140deg, rgb(234, 234, 234), rgb(143, 143, 143));
+    border-radius: 20px;
+    display: flex;
+}
+
+.background4 img {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: 170px;
+}
+
+
+.header1 {
+    border-left: 1px solid rgb(107, 107, 107);
+    margin-right: -150px;
+}
+
+.header1 h3{
+    margin-top: 130px;
+    margin-right: 220px;
+}
+
+
+.list li {
+    margin-right: 30px;
+    list-style-image: url('images/check.png');
+    font-size: larger;
+    padding: 5px;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.list1 li {
+    margin-right: 30px;
+    list-style-image: url('images/right-arrow.png');
+    font-size: larger;
+    padding: 0;
+    text-align: right;
+    margin-top: 5px;
+}
